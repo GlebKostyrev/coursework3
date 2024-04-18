@@ -1,4 +1,4 @@
-from flask import Resource, Namespace
+from flask_restx import Resource, Namespace
 
 from container import director_service
 from dao.model.director import DirectorSchema

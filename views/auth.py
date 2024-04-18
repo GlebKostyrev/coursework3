@@ -1,4 +1,5 @@
-from flask import Resource, Namespace, request
+from flask_restx import Resource, Namespace
+from flask import request
 from services.auth import auth_service
 
 auth_ns = Namespace('auth')

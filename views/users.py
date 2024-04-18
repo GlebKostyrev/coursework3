@@ -1,4 +1,5 @@
-from flask import Resource, Namespace, request
+from flask_restx import Resource, Namespace
+from flask import request
 from container import user_service
 from dao.model.user import UserSchema
 from helpers.decorators import admin_required

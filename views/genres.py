@@ -1,4 +1,4 @@
-from flask import Resource, Namespace
+from flask_restx import Resource, Namespace
 
 from container import genre_service
 from dao.model.genre import GenreSchema

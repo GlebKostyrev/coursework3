@@ -1,7 +1,7 @@
 from db import db
 from marshmallow import Schema, fields
 
-class Genre(db.Models):
+class Genre(db.Model):
     __tablename__ = 'genres'
 
     id = db.Column(db.Integer, primary_key=True)

@@ -1,7 +1,7 @@
 from db import db
 from marshmallow import Schema, fields
 
-class Movie(db.Models):
+class Movie(db.Model):
     __tablename__ = 'movies'
 
     id = db.Column(db.Integer, primary_key=True)

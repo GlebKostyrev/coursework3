@@ -1,7 +1,7 @@
 from db import db
 from marshmallow import Schema, fields
 
-class Director(db.Models):
+class Director(db.Model):
     __tablename__ = 'directors'
 
     id = db.Column(db.Integer, primary_key=True)
